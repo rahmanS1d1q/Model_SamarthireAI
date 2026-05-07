@@ -1,0 +1,15 @@
+                  precision    recall  f1-score   support
+
+         BI / BO     0.9367    0.8506    0.8916        87
+Business Analyst     0.8738    0.8411    0.8571       107
+       DWH / ETL     0.8657    0.8722    0.8689       133
+        Java Dev     0.7671    0.8358    0.8000        67
+Network SysAdmin     0.7364    0.8020    0.7678       101
+ Project Manager     0.8899    0.9798    0.9327        99
+       Recruiter     0.6667    0.5200    0.5843        50
+         SQL Dev     0.8571    0.8036    0.8295       112
+         Web Dev     0.8818    0.9151    0.8981       106
+
+        accuracy                         0.8434       862
+       macro avg     0.8306    0.8245    0.8256       862
+    weighted avg     0.8432    0.8434    0.8418       862
