@@ -32,6 +32,7 @@ data/processed/*.pkl
 
 # Model checkpoints (keep final model, exclude checkpoints)
 models/checkpoint/
+models/final/
 
 # Large pickle files
 *.pkl
