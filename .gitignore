@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+.venv
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large data files (exclude raw data, but keep processed/models if small)
+data/raw/**
+data/processed/train*.pkl
+data/processed/val*.pkl
+data/processed/test*.pkl
+data/processed/*.pkl
+
+# Model checkpoints (keep final model, exclude checkpoints)
+models/checkpoint/
+
+# Large pickle files
+*.pkl
+
+# IDE settings
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Misc
+*.log
+.env
+.env.local
